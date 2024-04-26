@@ -1,0 +1,44 @@
+.div1{
+    height: 150px;
+    border: 5px black dotted;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 1em;
+    padding: 1em;
+}
+
+.nd{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+     display: inline-block; 
+    
+}
+.links{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.transition-effect{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 0 auto;
+    transition: margin-top 2s ease-out 0.5s;
+    
+}
+
+.transition-effect:hover{
+   
+    margin-top: 400px;
+    background-color: pink;
+
+}

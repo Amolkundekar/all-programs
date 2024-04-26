@@ -1,0 +1,13 @@
+div h1{
+    font-style: italic;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+ul a{
+    display: flex;
+    flex-direction: row;
+}

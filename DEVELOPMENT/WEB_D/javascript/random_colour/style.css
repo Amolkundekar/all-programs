@@ -1,0 +1,23 @@
+/* .red{
+    color: red;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.box{
+    border: 1px dashed black;
+    background-color: aquamarine;
+} */
+
+div{
+    margin: auto;
+    height: 100px;
+    width: 500px;
+    border: solid 2px black;
+}
+body{
+    text-align: center;
+}

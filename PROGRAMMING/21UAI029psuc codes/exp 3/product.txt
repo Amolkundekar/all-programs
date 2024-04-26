@@ -1,0 +1,6 @@
+ball		100l		50		5
+pen		11a		100		18
+bat		55b		5000		10
+soap		66c		105		5
+bulb		67d		85		8
+								

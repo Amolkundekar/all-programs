@@ -1,0 +1,23 @@
+cartype,luxury,drive,classic
+petrol,base,4wd,no
+diesel,top,awd,no
+electric,ultra,rwd,not good
+petrol,top,4wd,yes
+diesel,base,awd,no
+electric,ultra,4wd,yes
+petrol,base,rwd,no
+diesel,top,rwd,not good
+electric,ultra,awd,yes
+petrol,top,4wd,yes
+diesel,base,awd,no
+electric,ultra,4wd,yes
+petrol,base,rwd,no
+diesel,top,rwd,no
+electric,ultra,awd,yes
+petrol,top,4wd,yes
+diesel,base,awd,no
+electric,ultra,4wd,yes
+petrol,base,rwd,no
+diesel,top,rwd,no
+electric,ultra,awd,yes
+petrol,top,4wd,yes

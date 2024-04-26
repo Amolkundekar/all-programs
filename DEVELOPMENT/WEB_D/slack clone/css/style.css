@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+ul{
+    list-style-type: none;
+}
+
+/* ============ utility classes ========= */
+.container{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    width: 12rem;
+    height: 100%;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ================= navbar styling ================*/
+
+.nav-bar-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar-logo{
+    display: inline-block;
+    width: 10rem;
+    height: 5rem;
+}
+.nav-bar{
+    /* margin-top: 1rem; */
+    text-align: center;
+    height: 10rem;
+    background: rgb(104, 3, 104);
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.nav-bar :hover{
+    border-radius: 90px;
+    height: 12rem;
+}
+.nav-bar-item{
+    padding-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-bar li:first-of-type{
+    padding: 2rem;
+}
+.nav-bar .nav-bar-item .tf-btn{
+    background-color: white;
+    color: black;
+    margin-right: 2rem;
+}
+
+.header{
+    height: 100vh;
+    background: rgb(101, 2, 101);
+}
+.nav-bar-item a{
+    color: white;
+}
+
+
+/* ===================== header styling ===================== */
+.header .text-box h1{
+    font-size: 5.5rem;
+}
+.header .text-box h1:first-of-type{
+    color: white;
+
+}
+.text-box .second-h1{
+    color: rgb(188, 188, 7);
+}
+.text-box{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 2rem;
+}
+.image-box{
+    float: right;
+    width: 40%;
+}
+.text-box img{
+    width: 5rem;
+    height: auto;
+
+}
+.image-box img{
+    width: 100%;
+    height: 40rem;
+}
+.header-content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-content{
+    margin-top: 3rem;
+}
+.header-content p{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.text-box .btn2 p{
+    display: inline-block;
+}
+.text-box .btn1{
+    float: left;
+    width: 40%;
+    height: 5rem;
+    background-color: white;
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+.text-box .btn2{
+    float: right;
+    width: 55%;
+    text-align: left;
+    height: 5rem;    
+    background-color: rgb(7, 172, 237);
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text-box .btns-div{
+    height: 7rem;
+    
+}
+.text-box .btns-div p{
+    padding: 0.2rem 3rem;
+}
+
+
+
+/* ================= card box styling ==================== */
+.card-image-box img{
+    height: 20rem;
+    width: 100%;
+} 
+.cards-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+.cards .container .cards-items a{
+    background: white;
+    padding: 1.5rem;
+}
+.cards .cards-head{
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.cards{
+    padding-top: 7rem;
+    background: rgb(240, 235, 224);
+    /* #F0EBE0 */
+    
+}
+
+.card-text-box{
+    height: 25rem;
+}
+.card{
+    box-shadow: 2px 2px 1px rgba(7, 179, 247, 0.2);
+}
+.head-para{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.main-para{
+
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-text-box .last-para{
+    justify-self: end;
+    
+}
+
+

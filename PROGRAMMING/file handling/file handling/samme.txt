@@ -1,0 +1,5 @@
+hi, file handling 
+
+fgets() function is used to read some strings from the file
+it reads characters one less than our specified value and
+next reading starts from where the reading is terminated.

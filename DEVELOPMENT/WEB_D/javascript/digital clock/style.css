@@ -1,0 +1,26 @@
+body{
+    margin: 0;;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient( to top, black);
+}
+
+.container{
+    color: #47cf73;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+#clock{
+    width: 200px;
+    color: #47cf73;
+    font-size: 65px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px black;
+    background-color: white;
+    padding: 24px;
+}

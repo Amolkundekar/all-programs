@@ -1,0 +1,4 @@
+product name	product id	*price	*gst
+sd	y	78	8
+uj	h	89	7
+yj	u	76	6
